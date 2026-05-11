@@ -1,7 +1,8 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
 import App from '../App'
-import { sampleProducts } from '../components/ProductList'
+// import { sampleProducts } from '../components/ProductList'
+import { sampleProducts } from '../App'
 import '@testing-library/jest-dom'
 
 test('toggles dark mode on button click', () => {
